@@ -10,8 +10,6 @@ import Resume from "./components/pages/resume";
 import {Routes, Route} from 'react-router-dom'
 
 
-
-
 function App() {
   return (
     <div className="App">
