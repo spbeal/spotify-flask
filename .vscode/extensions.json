@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "formulahendry.auto-close-tag",
+        "antfu.browse-lite",
+        "xaver.clang-format",
+        "naumovs.color-highlight",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "visualstudioexptteam.vscodeintellicode",
+        "esbenp.prettier-vscode",
+        "zhang-renyang.vscode-react",
+        "brendan-mike.react-tsx-snippet",
+        "hex-ci.stylelint-plus",
+        "bradlc.vscode-tailwindcss"
+    ]
+}
