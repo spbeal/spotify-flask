@@ -9,7 +9,6 @@ import PageNotFound from "./components/pages/PageNotFound";
 import Resume from "./components/pages/resume";
 import {Routes, Route} from 'react-router-dom'
 
-import {createBrowserRouter } from 'react-router-dom'
 
 
 
@@ -18,7 +17,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path = '/' element = {<Home/>}/>
+        <Route path = '/Misc-Website' element = {<Home/>}/>
       </Routes>
     </div>
 
