@@ -1,12 +1,7 @@
 import Navbar from "./components/navigationbar/Navbar";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Skills from "./components/pages/Skills";
-import Education from "./components/pages/Education";
-import Contact from "./components/pages/Contact";
-import Work from "./components/pages/Work";
 import PageNotFound from "./components/pages/PageNotFound";
-import Resume from "./components/pages/resume";
+import Learn from "./components/pages/Learn";
 import {Routes, Route} from 'react-router-dom'
 
 
@@ -15,7 +10,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path = '/Misc-Website' element = {<Home/>}/>
+        <Route path = '/' element = {<Home/>}/>
+        <Route path = '/Learn' element = {<Learn/>}/>
       </Routes>
     </div>
 

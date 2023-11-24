@@ -1,10 +1,10 @@
 
 import React, {useState} from 'react'
-import Logo from '../../assets/pink design fixed.png'
+import Logo from '../../assets/images/pink design fixed.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa"
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {Link} from 'react-scroll'
+// import {HiOutlineMail} from 'react-icons/hi'
+// import {BsFillPersonLinesFill} from 'react-icons/bs'
+// import {Link} from 'react-scroll'
 
 {/*cinerous cambridge_blue emerald celadon almond */}
 
@@ -13,14 +13,15 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
   
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-almond text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-almond text-cinereous-500">
        <div>
             <img src={Logo} alt="Logo" style={{width: '60px'}} />
         </div>
         {/* menu */}
             <ul className='hidden md:flex mx-2 gap-x-5 cursor-pointer'>
                 <li>
-                  <a href='/Misc-Website'>Home</a>
+                  <a href='/'>Home</a>
+                  <a href='/Learn'>Learn</a>
               </li>
             </ul>
 
@@ -37,7 +38,8 @@ const Navbar = () => {
           }
         >
             <li className='py-6 text-4xl'>
-            <a href='/Misc-Website'>Home</a>
+            <a href='/'>Home</a>
+            <a href='/'>Learn</a>
             </li>
          </ul>
     </div>
