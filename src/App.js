@@ -3,15 +3,19 @@ import Home from "./components/pages/Home";
 import PageNotFound from "./components/pages/PageNotFound";
 import Learn from "./components/pages/Learn";
 import {Routes, Route} from 'react-router-dom'
+import TopSongs from "./components/pages/TopSongs";
+import Sidebar from "./components/navigationbar/Sidebar";
 
 
 function App() {
   return (
     <div className="App">
+      {/* <Navbar/> */}
       <Navbar/>
       <Routes>
         <Route path = '/' element = {<Home/>}/>
         <Route path = '/Learn' element = {<Learn/>}/>
+        <Route path = '/Songs' element = {<TopSongs/>}/>
       </Routes>
     </div>
 

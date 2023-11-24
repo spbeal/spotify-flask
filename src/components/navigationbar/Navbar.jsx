@@ -1,7 +1,7 @@
 
 import React, {useState} from 'react'
 import Logo from '../../assets/images/pink design fixed.png'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from "react-icons/fa"
+import {FaBars, FaTimes} from "react-icons/fa"
 // import {HiOutlineMail} from 'react-icons/hi'
 // import {BsFillPersonLinesFill} from 'react-icons/bs'
 // import {Link} from 'react-scroll'
@@ -15,14 +15,29 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-almond text-cinereous-500">
        <div>
+          <a href='/'>
             <img src={Logo} alt="Logo" style={{width: '60px'}} />
+          </a>
         </div>
+
         {/* menu */}
-            <ul className='hidden md:flex mx-2 gap-x-5 cursor-pointer'>
+            <ul className='hidden md:flex text-lg mx-8 gap-x-5 cursor-pointer'>
                 <li>
                   <a href='/'>Home</a>
+                </li>
+                <li>
                   <a href='/Learn'>Learn</a>
-              </li>
+                </li>
+                <li>
+                  <a href='/Songs'>Songs</a>
+                </li>
+                {/* <li>
+                  <a href='/Learn'>Learn</a>
+                </li>
+                <li>
+                  <a href='/Learn'>Learn</a>
+                </li> */}
+
             </ul>
 
         {/* Hamburger */} 
