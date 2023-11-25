@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Misc-Website/static/css/main.31d6cfe0.css",
-    "main.js": "/Misc-Website/static/js/main.33bf9d71.js",
+    "main.js": "/Misc-Website/static/js/main.85b37fd4.js",
     "static/media/pink design fixed.png": "/Misc-Website/static/media/pink design fixed.273048c551aa23a35ee1.png",
     "index.html": "/Misc-Website/index.html",
-    "main.33bf9d71.js.map": "/Misc-Website/static/js/main.33bf9d71.js.map"
+    "main.85b37fd4.js.map": "/Misc-Website/static/js/main.85b37fd4.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.33bf9d71.js"
+    "static/js/main.85b37fd4.js"
   ]
 }
