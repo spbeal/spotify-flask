@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Misc-Website/static/css/main.31d6cfe0.css",
-    "main.js": "/Misc-Website/static/js/main.7c7a7923.js",
-    "static/media/pink design fixed.png": "/Misc-Website/static/media/pink design fixed.273048c551aa23a35ee1.png",
-    "index.html": "/Misc-Website/index.html",
-    "main.7c7a7923.js.map": "/Misc-Website/static/js/main.7c7a7923.js.map"
+    "main.css": "/PopularDataVisualization/static/css/main.31d6cfe0.css",
+    "main.js": "/PopularDataVisualization/static/js/main.a4913d48.js",
+    "static/media/pink design fixed.png": "/PopularDataVisualization/static/media/pink design fixed.273048c551aa23a35ee1.png",
+    "index.html": "/PopularDataVisualization/index.html",
+    "main.a4913d48.js.map": "/PopularDataVisualization/static/js/main.a4913d48.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.7c7a7923.js"
+    "static/js/main.a4913d48.js"
   ]
 }
