@@ -21,6 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* menu */}
+        <div>
             <ul className='hidden md:flex text-lg mx-8 gap-x-5 cursor-pointer'>
                 <li>
                   <a href='/'>Home</a>
@@ -39,7 +40,9 @@ const Navbar = () => {
                 </li> */}
 
             </ul>
-
+        </div>
+        
+        
         {/* Hamburger */} 
         <div onClick={handleClick} className='md:hidden z-10'>
           {!nav ? <FaBars /> : <FaTimes/>}
@@ -49,11 +52,13 @@ const Navbar = () => {
          <ul className = {
           !nav 
           ? 'hidden' 
-          : ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+          : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
           }
         >
             <li className='py-6 text-4xl'>
             <a href='/'>Home</a>
+            </li>
+            <li className='py-6 text-4xl'>
             <a href='/'>Learn</a>
             </li>
          </ul>
