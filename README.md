@@ -23,13 +23,3 @@
 ## Project Created & Maintained By
 
 ### Samuel Beal
-
-[![GitHub followers](https://img.shields.io/github/followers/spbeal.svg?style=social&label=Follow)](https://github.com/spbeal/)
-
-## Stargazers
-
-[![Stargazers repo roster for @spbeal/reactjs](https://reporoster.com/stars/dark/spbeal/reactjs)](https://github.com/spbeal/Misc-Website)
-
-## Forkers
-
-[![Forkers repo roster for @spbeal/reactjs](https://reporoster.com/forks/dark/spbeal/Misc-Website)](https://github.com/spbeal/Misc-Website/network/members)
