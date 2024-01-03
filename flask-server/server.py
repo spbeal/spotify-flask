@@ -79,9 +79,6 @@ def save_discover_weekly():
 
 def create_spotify_oauth():
     return SpotifyOAuth(
-
-        #client_id='fe1e3de44a6448a1adb90f23b4aa80c2', # my app
-        #client_secret='eb97ebc610f849acb0afd4355c345662', # my app 
         client_id = os.getenv("CLIENT_ID"),
         client_secret = os.getenv("CLIENT_SECRET"),
         redirect_uri = url_for('redirect_page', _external=True),
