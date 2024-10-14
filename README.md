@@ -17,7 +17,9 @@
 
 </div>
 
-### View a [live demo here.]()
+The folder flask-server contains all the active working code. 
+
+To build, fork and use npm to download all dependencies. 
 
 ## Project Created & Maintained By
 
