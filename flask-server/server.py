@@ -19,7 +19,7 @@ TOKEN_INFO = 'token_info'
 
 @app.route('/')
 def login():
-    AUTH_URL = "https://accounts.spotify.com/authorize?client_id=fe1e3de44a6448a1adb90f23b4aa80c2&response_type=code&redirect_uri=http://localhost:3000&scope=streaming user-read-email user-read-private user-library-read u\ser-library-modify user-read-playback-state user-modify-playback-state"
+    AUTH_URL = "https://accounts.spotify.com/authorize?client_id=fe1e3de44a6448a1adb90f23b4aa80c2&response_type=code&redirect_uri=http://localhost:3000&scope=streaming user-read-email user-read-private user-library-read user-library-modify user-read-playback-state user-modify-playback-state"
     auth_url = create_spotify_oauth().get_authorize_url()
     return redirect(auth_url)
 
