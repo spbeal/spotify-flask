@@ -16,10 +16,17 @@
 <img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/spbeal?style=flat&color=blueviolet">
 
 </div>
+# Active Features
+- Puts current Discover Weekly songs into a Saved Weekly playlist, built to be able to do this each week to save songs overtime. 
 
-The folder flask-server contains all the active working code. 
-
-To build, fork and use npm to download all dependencies. 
+# Build Instructions
+> Fork and use npm to download all dependencies.
+> Then add your own spotify api keys to have it use your account.
+> Then run the following commands:
+- set FLASK_APP=app.py
+- set FLASK_ENV=development
+- flask run
+> Then you can go to the following link and whenever you refresh you will put 30 songs into a Saved Weekly playlist from your active Discover Weekly.
 
 ## Project Created & Maintained By
 
