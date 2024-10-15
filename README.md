@@ -17,7 +17,7 @@
 ## Build Instructions
 > Fork and use npm to download all dependencies. <br>
 > Add your own spotify api keys to use your account. <br>
-> Run the following commands:
+> Run the following commands after navigating to src directory:
 - set FLASK_APP=app.py
 - set FLASK_ENV=development
 - flask run
