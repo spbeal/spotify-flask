@@ -21,7 +21,7 @@
 - set FLASK_APP=app.py
 - set FLASK_ENV=development
 - flask run
-- Go to the link provided in the terminal
+> Go to the link in the terminal<br>
 > Whenever you refresh you will put 30 songs into a Saved Weekly playlist from your active Discover Weekly.
 
 ## Project Created & Maintained By
